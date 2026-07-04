@@ -1,0 +1,153 @@
+﻿```cshtml
+@model YemekMenuProjem.Models.Masa
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Masa Güncelle</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="~/admintemplate/css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand ps-3" href="#">Food World</a>
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div id="layoutSidenav">
+
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark">
+
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+
+                        <div class="sb-sidenav-menu-heading">
+                            Dashboard Düzenlemeleri
+                        </div>
+
+                        <a class="nav-link" asp-controller="Menu" asp-action="AdminMenu">
+                            Menü İşlemleri
+                        </a>
+
+                        <a class="nav-link" asp-controller="Category" asp-action="Index">
+                            Kategori İşlemleri
+                        </a>
+
+                        <a class="nav-link" asp-controller="Rezervasyon" asp-action="Index">
+                            Rezervasyon İşlemleri
+                        </a>
+
+                        <a class="nav-link" asp-controller="Masa" asp-action="Index">
+                            Masa İşlemleri
+                        </a>
+
+                        <a class="nav-link" asp-controller="Rapor" asp-action="Index">
+                            Rapor İşlemleri
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="sb-sidenav-footer">
+                    Food World
+                </div>
+
+            </nav>
+        </div>
+
+        <div id="layoutSidenav_content">
+
+            <main>
+
+                <div class="container-fluid px-4">
+
+                    <div class="d-flex justify-content-end mb-3 mt-3">
+                        <a asp-action="Index" class="btn btn-secondary">
+                            Geri
+                        </a>
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <h4>Masa Güncelle</h4>
+
+                            <hr />
+
+                            <div class="row">
+
+                                <div class="col-md-5">
+
+                                    <form asp-action="Edit">
+
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                        <input type="hidden" asp-for="Id" />
+
+                                        <div class="mb-3">
+                                            <label asp-for="MasaNo" class="form-label"></label>
+                                            <input asp-for="MasaNo" class="form-control" />
+                                            <span asp-validation-for="MasaNo" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label asp-for="KisiKapasitesi" class="form-label"></label>
+                                            <input asp-for="KisiKapasitesi" class="form-control" />
+                                            <span asp-validation-for="KisiKapasitesi" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label class="form-label">Müsaitlik Durumu</label>
+
+                                            <select asp-for="MusaitMi" class="form-control">
+                                                <option value="true">Müsait</option>
+                                                <option value="false">Dolu</option>
+                                            </select>
+
+                                            <span asp-validation-for="MusaitMi" class="text-danger"></span>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-success">
+                                            Güncelle
+                                        </button>
+
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admintemplate/js/scripts.js"></script>
+
+</body>
+</html>
+```

@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
+build_property.RootNamespace = YemekMenuProjem
+build_property.RootNamespace = YemekMenuProjem
+build_property.ProjectDir = C:\Users\eylul\Documents\GitHub\AllSoftitoProjects\1CodeFirstMVCProject\YemekMenuProjem\YemekMenuProjem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\eylul\Documents\GitHub\AllSoftitoProjects\1CodeFirstMVCProject\YemekMenuProjem\YemekMenuProjem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Masa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Masa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Masa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Menu/AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBZG1pbk1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Menu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Menu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Rapor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFwb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Rezervasyon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXN5b25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Rezervasyon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXN5b25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Rezervasyon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXN5b25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/1CodeFirstMVCProject/YemekMenuProjem/YemekMenuProjem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5b3uv76uk6
