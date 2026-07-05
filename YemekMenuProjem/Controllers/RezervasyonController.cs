@@ -44,14 +44,32 @@ namespace YemekMenuProjem.Controllers
         {
             var result = dbcontext.Rezervasyonlar.Find(id);
 
+            if (result == null)
+            {
+                return NotFound();
+            }
+
             ViewBag.Id = new SelectList(dbcontext.Masalar, "Id", "MasaNo", result.MasaId);
 
             return View(result);
         }
         [HttpPost]
-        public IActionResult Edit(Masa menu)
+        public IActionResult Edit(Rezervasyon rezervasyon)
         {
-            dbcontext.Masalar.Update(menu);
+            var result = dbcontext.Rezervasyonlar.Find(rezervasyon.Id);
+
+            if (result == null)
+            {
+                return NotFound();
+            }
+
+            result.MusteriAdSoyad = rezervasyon.MusteriAdSoyad;
+            result.Telefon = rezervasyon.Telefon;
+            result.RezervasyonTarihi = rezervasyon.RezervasyonTarihi;
+            result.KisiSayisi = rezervasyon.KisiSayisi;
+            result.MasaId = rezervasyon.MasaId;
+            result.Notlar = rezervasyon.Notlar;
+
             dbcontext.SaveChanges();
 
             return RedirectToAction("Index");

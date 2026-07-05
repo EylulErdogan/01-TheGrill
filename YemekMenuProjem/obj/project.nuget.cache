@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9s/2luSm/gc=",
+  "dgSpecHash": "3ubj1XHTez4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\1CodeFirstMVCProject\\YemekMenuProjem\\YemekMenuProjem\\YemekMenuProjem.csproj",
+  "projectFilePath": "C:\\Users\\eylul\\Documents\\GitHub\\01-TheGrill\\YemekMenuProjem\\YemekMenuProjem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eylul\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\eylul\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

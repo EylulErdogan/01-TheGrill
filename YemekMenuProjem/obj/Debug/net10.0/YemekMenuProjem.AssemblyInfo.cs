@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YemekMenuProjem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da63d4eddf20e51fe878b3f8b28d96b9a9c0bc8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ca4e8b2954eba6be19c7c16590dfc7c157a4065")]
 [assembly: System.Reflection.AssemblyProductAttribute("YemekMenuProjem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YemekMenuProjem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
